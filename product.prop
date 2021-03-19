@@ -6,6 +6,7 @@ audio.sys.mute.latency.factor=2
 audio.sys.routing.latency=0
 audio.offload.min.duration.secs=30
 audio.sys.offload.pstimeout.secs=3
+arm64.memtag.process.system_server=off
 ro.af.client_heap_size_kbyte=7168
 media.stagefright.audio.deep=false
 aaudio.mmap_policy=2
