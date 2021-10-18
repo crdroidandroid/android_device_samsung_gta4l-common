@@ -156,6 +156,9 @@ persist.vendor.sensors.enable.rt_task=false
 persist.vendor.sensors.support_direct_channel=false
 persist.vendor.sensors.enable.bypass_worker=true
 
+# System
+persist.sys.binary_xml=false
+
 # Usb
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
