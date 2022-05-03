@@ -21,3 +21,4 @@ ro.opa.eligible_device=true
 ro.com.google.gmsversion=12_202204
 ro.launcher.blur.appLaunch=0
 debug.cpurend.vsync=false
+debug.hwui.renderer=skiagl
