@@ -141,6 +141,8 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SettingsGoogle \
     SystemUIGoogle
 
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
