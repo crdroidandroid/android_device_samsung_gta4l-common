@@ -165,6 +165,8 @@ debug.stagefright.omx_default_rank=0
 debug.stagefright.ccodec=1
 
 # Display & graphics
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 debug.egl.hw=0
 debug.mdpcomp.logs=0
 debug.sf.enable_advanced_sf_phase_offset=1
