@@ -122,6 +122,14 @@ ro.crypto.volume.metadata.method=dm-default-key
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
+# Fling Velocity
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Wifi
 wifi.aware.interface=wifi-aware0
 
