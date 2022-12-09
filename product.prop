@@ -26,3 +26,7 @@ debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.skia_atrace_enabled=false
 debug.sf.enable_transaction_tracing=false
+ro.vold.umsdirtyratio=20 
+ro.ril.disable.power.collapse=0 
+power.saving.mode=1
+pm.sleep_mode=1
