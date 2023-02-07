@@ -24,3 +24,4 @@ ro.launcher.blur.appLaunch=0
 debug.cpurend.vsync=false
 debug.hwui.renderer=skiagl
 debug.hwui.skia_atrace_enabled=false
+debug.sf.enable_transaction_tracing=false
