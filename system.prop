@@ -6,4 +6,15 @@ ro.netflix.bsp_rev=Q6115-31409-1
 ro.netflix.channel=2eb27aa0-3926-11e9-8c73-9b498cd1a550
 ro.netflix.signup=1
 
+# RIL Powersaving
+persist.radio.add_power_save=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=100
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+power.saving.mode=1
+
 persist.vendor.dpm.feature=11
