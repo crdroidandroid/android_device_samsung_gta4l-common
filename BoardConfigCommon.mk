@@ -62,6 +62,9 @@ SOONG_CONFIG_NAMESPACES += samsungCameraVars
 SOONG_CONFIG_samsungCameraVars += needs_sec_get_cam_pos_v2
 SOONG_CONFIG_samsungCameraVars_needs_sec_get_cam_pos_v2 := true
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # AVB
 BOARD_AVB_ENABLE := true
 BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
