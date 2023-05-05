@@ -86,6 +86,9 @@ endif
 # Display
 TARGET_SCREEN_DENSITY := 240
 
+# Jemalloc
+MALLOC_SVELTE_FOR_LIBC32 := true
+
 # Graphics
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
