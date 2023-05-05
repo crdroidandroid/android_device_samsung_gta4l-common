@@ -54,6 +54,9 @@ on init
 on early-fs
     start vold
 
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
 on fs
     start hwservicemanager
     mount_all --early
