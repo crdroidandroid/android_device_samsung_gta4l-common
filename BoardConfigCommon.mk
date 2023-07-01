@@ -138,6 +138,7 @@ TARGET_KERNEL_CLANG_VERSION := proton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton-clang
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 KERNEL_FULL_LLVM := true
+KERNEL_CC := CC=clang
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     LLVM=1 \
     LLVM_IAS=1
