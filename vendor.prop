@@ -212,6 +212,7 @@ vendor.display.use_smooth_motion=1
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.secure_preview_buffer_format=420_sp
 vendor.opengles.version=196610
+ro.surface_flinger.enable_frame_rate_override=false
 
 # Ringtones
 ro.config.ringtone=Over_the_Horizon.ogg
