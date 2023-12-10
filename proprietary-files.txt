@@ -167,7 +167,6 @@ vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libofflinelog.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libwingmetamanager.so
-vendor/lib/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/com.qti.eeprom.n19_gc8034_back_cxt.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
@@ -353,7 +352,6 @@ vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libqti-iopd-client.so
-vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libwingmetamanager.so
@@ -361,11 +359,8 @@ vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|5dfcd423c021b3d9385f47f159e12d6ef6558c28
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
 # Charging
 vendor/bin/hvdcp_opti
@@ -695,10 +690,8 @@ vendor/lib64/libkeymasterutils.so
 # Machine Learning
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/lib64/libadaptlaunch.so
-vendor/lib64/liblearningmodule.so
 vendor/lib64/liblmutils-ns.so
 vendor/lib64/libmeters-ns.so
-vendor/lib64/libmeters.so
 vendor/lib64/libreffeature.so
 
 # OMX
@@ -742,31 +735,6 @@ vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libmmosal.so
 vendor/lib64/libswvdec.so
-
-# Perf
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/commonsysnodesconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/powerhint.xml
-vendor/lib/libperfconfig.so
-vendor/lib/libperfgluelayer.so
-vendor/lib/libperfioctl.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib/libqti-utils.so
-vendor/lib64/libperfconfig.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libperfioctl.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/libqti-utils.so
 
 # Peripheral Manager
 vendor/bin/pm-proxy
