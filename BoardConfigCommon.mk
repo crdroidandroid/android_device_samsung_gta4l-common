@@ -87,6 +87,9 @@ endif
 # Display
 TARGET_SCREEN_DENSITY := 240
 
+# Disable Postrender Cleanup
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
+
 # Jemalloc
 MALLOC_SVELTE_FOR_LIBC32 := true
 
