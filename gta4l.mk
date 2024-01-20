@@ -32,6 +32,10 @@ PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# ART lowmem config
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.art_lowmem=true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2000
 TARGET_SCREEN_WIDTH := 1200
