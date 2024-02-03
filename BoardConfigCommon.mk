@@ -57,6 +57,7 @@ BOARD_USES_ALSA_AUDIO := true
 USE_CUSTOM_AUDIO_POLICY := 1
 
 # Camera
+$(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
 SOONG_CONFIG_NAMESPACES += samsungCameraVars
 SOONG_CONFIG_samsungCameraVars += needs_sec_get_cam_pos_v2
 SOONG_CONFIG_samsungCameraVars_needs_sec_get_cam_pos_v2 := true
