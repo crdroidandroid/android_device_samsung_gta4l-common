@@ -138,8 +138,8 @@ PRODUCT_PACKAGES += \
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
-    SettingsGoogle \
-    SystemUIGoogle
+    Settings \
+    SystemUI
 
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
