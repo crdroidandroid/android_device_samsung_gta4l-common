@@ -262,6 +262,7 @@ ro.bionic.arch=arm64
 ro.control_privapp_permissions=enforce
 ro.crypto.metadata_init_delete_all_keys.enabled=false
 ro.frp.pst=/dev/block/persistent
+ro.incremental.enable=true
 ro.hardware.gatekeeper=mdfpp
 ro.hardware.keystore=mdfpp
 ro.kernel.qemu=0
