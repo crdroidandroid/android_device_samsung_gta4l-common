@@ -304,7 +304,10 @@ PRODUCT_PACKAGES += \
 
 # QCOM
 PRODUCT_PACKAGES += \
+    libcurl.vendor \
     libjson \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
     libtinyxml
 
 # QTI
