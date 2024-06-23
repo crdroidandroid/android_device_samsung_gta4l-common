@@ -171,7 +171,6 @@ vendor.usb.use_ffs_mtp=0
 
 # Stagefright & Media
 debug.stagefright.omx_default_rank=0
-debug.stagefright.ccodec=1
 
 # Display & graphics
 debug.hwui.use_hint_manager=true
