@@ -374,6 +374,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     WifiOverlay \
     android.hardware.wifi-service \
+    firmware_WCNSS_qcom_cfg.ini_symlink \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
