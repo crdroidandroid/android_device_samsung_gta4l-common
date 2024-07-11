@@ -810,12 +810,10 @@ vendor/bin/rmt_storage
 vendor/bin/ssgqmigd
 vendor/bin/ssgtzd
 vendor/bin/tftp_server
-vendor/bin/tloc_daemon
 vendor/bin/wt_rpmb_status
 vendor/etc/data/dsi_config.xml
 vendor/etc/init/qdcmss.rc
 vendor/etc/init/ssgtzd.rc
-vendor/etc/init/tloc_daemon.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/sec_config
