@@ -107,7 +107,9 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.device@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor \
     android.hardware.camera.provider@2.5-legacy.samsung \
-    android.hardware.camera.provider-service.samsung
+    android.hardware.camera.provider-service.samsung \
+    libjpeg.vendor \
+    libexif.vendor
 
 # Charger
 PRODUCT_PACKAGES += \
