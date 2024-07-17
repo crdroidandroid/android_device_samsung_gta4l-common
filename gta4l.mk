@@ -23,6 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/gta4l-common/gta4l-common-vendor.mk)
 
+# Build Signer
+$(call inherit-product-if-exists, vendor/lineage-priv/product.mk)
+
 # Tablet
 PRODUCT_CHARACTERISTICS := tablet
 
